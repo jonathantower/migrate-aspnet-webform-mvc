@@ -3,7 +3,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using System.Web;
 using System.Web.Mvc;
-using WingtipToys.Data;
+using WingtipToys.Identity;
 using WingtipToys.MVC.ViewModels;
 
 namespace WingtipToys.MVC.Controllers

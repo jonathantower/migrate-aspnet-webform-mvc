@@ -3,7 +3,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using WingtipToys.Data;
+using WingtipToys.Identity;
 
 namespace WingtipToys.Account
 {

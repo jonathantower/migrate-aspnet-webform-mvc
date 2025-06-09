@@ -2,7 +2,7 @@
 using Microsoft.Owin.Security;
 using System;
 using System.Web;
-using WingtipToys.Data;
+using WingtipToys.Identity;
 
 namespace WingtipToys.Account
 {

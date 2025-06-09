@@ -461,6 +461,10 @@
       <Project>{ff01a182-b6f9-4a44-b05c-43527fafd42e}</Project>
       <Name>WingtipToys.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WingtipToys.Identity\WingtipToys.Identity.csproj">
+      <Project>{f6c13961-8395-48db-a72e-d82ff9c52ce5}</Project>
+      <Name>WingtipToys.Identity</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

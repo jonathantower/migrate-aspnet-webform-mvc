@@ -6,8 +6,7 @@ namespace WingtipToys.MVC.ViewModels
 
     {
         [Required]
-        [EmailAddress]
-        [Display(Name = "Email address")]
+        [Display(Name = "Username")]
         public string Email { get; set; }
 
         [Required]
