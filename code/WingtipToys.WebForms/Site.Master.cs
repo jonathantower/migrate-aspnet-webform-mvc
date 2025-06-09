@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
 using System.Web;
 using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Linq;
+using WingtipToys.Common;
 using WingtipToys.Data;
 using WingtipToys.Logic;
 
@@ -71,6 +72,9 @@ namespace WingtipToys
 
         protected void Page_Load(object sender, EventArgs e)
         {
+          bool isMobile = HttpContextUtilities.IsMobileBrowser();
+          divMobile.Visible = false;
+
           if (HttpContext.Current.User.IsInRole("Administrator"))
           {
             adminLink.Visible = true;

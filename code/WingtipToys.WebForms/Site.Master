@@ -104,6 +104,7 @@
             <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - Wingtip Toys</p>
+                <div id="divMobile" runat="server">(Mobile Site)</div>
             </footer>
         </div>
     </form>

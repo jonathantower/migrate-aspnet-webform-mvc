@@ -453,10 +453,12 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\WingtipToys.Common\WingtipToys.Common.csproj">
+      <Project>{56a74982-715e-47ad-9bb3-575ee3cf70b5}</Project>
+      <Name>WingtipToys.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WingtipToys.Data\WingtipToys.Data.csproj">
       <Project>{ff01a182-b6f9-4a44-b05c-43527fafd42e}</Project>
       <Name>WingtipToys.Data</Name>

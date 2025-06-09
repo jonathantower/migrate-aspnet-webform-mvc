@@ -1,4 +1,8 @@
 ﻿@using Microsoft.AspNet.Identity
+@using WingtipToys.Common
+@{
+    bool isMobile = WingtipToys.Common.HttpContextUtilities.IsMobileBrowser();
+}
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,6 +51,10 @@
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            @if (isMobile)
+            {
+                <div>(Mobile Site)</div>
+            }
         </footer>
     </div>
 

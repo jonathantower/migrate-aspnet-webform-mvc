@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{02EA681E-C7D8-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Libraries", "Class Libraries", "{36EAABC8-8D71-40A0-A2AD-7EA9F3F8D9D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipToys.Common", "WingtipToys.Common\WingtipToys.Common.csproj", "{56A74982-715E-47AD-9BB3-575EE3CF70B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{F6C13961-8395-48DB-A72E-D82FF9C52CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6C13961-8395-48DB-A72E-D82FF9C52CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6C13961-8395-48DB-A72E-D82FF9C52CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A74982-715E-47AD-9BB3-575EE3CF70B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A74982-715E-47AD-9BB3-575EE3CF70B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A74982-715E-47AD-9BB3-575EE3CF70B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A74982-715E-47AD-9BB3-575EE3CF70B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{13833ADB-D6CA-4D42-9AB3-E15DCB7EF7F8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{FF01A182-B6F9-4A44-B05C-43527FAFD42E} = {36EAABC8-8D71-40A0-A2AD-7EA9F3F8D9D3}
 		{F6C13961-8395-48DB-A72E-D82FF9C52CE5} = {36EAABC8-8D71-40A0-A2AD-7EA9F3F8D9D3}
+		{56A74982-715E-47AD-9BB3-575EE3CF70B5} = {36EAABC8-8D71-40A0-A2AD-7EA9F3F8D9D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {826BE89E-EAA0-4ACA-B9C0-4856C0611C0A}

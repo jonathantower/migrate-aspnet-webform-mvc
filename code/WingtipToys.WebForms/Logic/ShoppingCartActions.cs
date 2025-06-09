@@ -95,6 +95,16 @@ namespace WingtipToys.Logic
                          cartItems.Product.UnitPrice).Sum();
       return total ?? decimal.Zero;
     }
+
+    public string GetLastUpdatedDate()
+    {
+      ShoppingCartId = GetCartId();
+      var lastUpdated = (from cartItems in _db.ShoppingCartItems
+                         where cartItems.CartId == ShoppingCartId
+                         select cartItems.DateCreated).Max();
+      return lastUpdated.ToFriendlyDate();
+    }
+
     public ShoppingCartActions GetCart(HttpContext context)
     {
       using (var cart = new ShoppingCartActions())

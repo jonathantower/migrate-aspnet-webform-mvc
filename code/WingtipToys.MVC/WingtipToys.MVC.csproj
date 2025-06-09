@@ -334,10 +334,7 @@
     <Content Include="Views\Products\Index.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
     <Content Include="Content\bootstrap.rtl.css.map" />
@@ -369,6 +366,10 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WingtipToys.Common\WingtipToys.Common.csproj">
+      <Project>{56a74982-715e-47ad-9bb3-575ee3cf70b5}</Project>
+      <Name>WingtipToys.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WingtipToys.Data\WingtipToys.Data.csproj">
       <Project>{ff01a182-b6f9-4a44-b05c-43527fafd42e}</Project>
       <Name>WingtipToys.Data</Name>
