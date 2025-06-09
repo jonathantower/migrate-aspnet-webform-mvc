@@ -8,7 +8,7 @@ using WingtipToys.Data;
 using System.Web.ModelBinding;
 using System.Web.Routing;
 
-namespace WingtipToys
+namespace WingtipToys.ShopUI
 {
   public partial class ProductList : System.Web.UI.Page
   {

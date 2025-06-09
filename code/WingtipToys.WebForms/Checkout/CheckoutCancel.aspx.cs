@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WingtipToys.Checkout
+namespace WingtipToys.ShopUI.Checkout
 {
   public partial class CheckoutCancel : System.Web.UI.Page
   {

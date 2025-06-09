@@ -4,7 +4,7 @@ using System.Web;
 using System.Web.Routing;
 using Microsoft.AspNet.FriendlyUrls;
 
-namespace WingtipToys
+namespace WingtipToys.ShopUI
 {
     public static class RouteConfig
     {

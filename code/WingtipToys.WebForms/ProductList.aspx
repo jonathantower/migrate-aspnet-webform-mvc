@@ -1,5 +1,5 @@
 ﻿	<%@ Page Title="Products" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" 
-         CodeBehind="ProductList.aspx.cs" Inherits="WingtipToys.ProductList" %>
+         CodeBehind="ProductList.aspx.cs" Inherits="WingtipToys.ShopUI.ProductList" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <section>
         <div>

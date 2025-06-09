@@ -2,8 +2,8 @@ using Microsoft.AspNet.Identity;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(WingtipToys.MVC.Startup))]
-namespace WingtipToys.MVC
+[assembly: OwinStartup(typeof(WingtipToys.AdminUI.Startup))]
+namespace WingtipToys.AdminUI
 {
     public class Startup
     {

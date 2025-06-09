@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace WingtipToys.MVC.Controllers
+namespace WingtipToys.AdminUI.Controllers
 {
     public class HomeController : Controller
     {

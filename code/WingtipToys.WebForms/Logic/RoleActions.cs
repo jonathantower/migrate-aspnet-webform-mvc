@@ -6,7 +6,7 @@ using WingtipToys.Identity;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace WingtipToys.Logic
+namespace WingtipToys.ShopUI.Logic
 {
   internal class RoleActions
   {

@@ -8,9 +8,9 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
 using WingtipToys.Data;
-using WingtipToys.Logic;
+using WingtipToys.ShopUI.Logic;
 
-namespace WingtipToys
+namespace WingtipToys.ShopUI
 {
     public class Global : HttpApplication
     {

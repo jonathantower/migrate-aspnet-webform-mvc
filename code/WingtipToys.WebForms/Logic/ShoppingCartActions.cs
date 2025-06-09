@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using WingtipToys.Data;
 
-namespace WingtipToys.Logic
+namespace WingtipToys.ShopUI.Logic
 {
   public class ShoppingCartActions : IDisposable
   {

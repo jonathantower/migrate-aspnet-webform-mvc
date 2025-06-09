@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WingtipToys.Account {
+namespace WingtipToys.ShopUI.Account {
     
     
     public partial class RegisterExternalLogin {

@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using WingtipToys.Data;
 
-namespace WingtipToys.Checkout
+namespace WingtipToys.ShopUI.Checkout
 {
   public partial class CheckoutReview : System.Web.UI.Page
   {
@@ -63,7 +63,7 @@ namespace WingtipToys.Checkout
           _db.SaveChanges();
 
           // Get the shopping cart items and process them.
-          using (WingtipToys.Logic.ShoppingCartActions usersShoppingCart = new WingtipToys.Logic.ShoppingCartActions())
+          using (Logic.ShoppingCartActions usersShoppingCart = new Logic.ShoppingCartActions())
           {
             List<CartItem> myOrderList = usersShoppingCart.GetCartItems();
 

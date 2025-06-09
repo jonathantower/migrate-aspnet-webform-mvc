@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace WingtipToys.MVC.ViewModels
+namespace WingtipToys.AdminUI.ViewModels
 {
     public class LoginViewModel
 

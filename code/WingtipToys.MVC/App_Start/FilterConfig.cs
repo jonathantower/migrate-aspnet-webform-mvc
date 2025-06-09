@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace WingtipToys.MVC
+namespace WingtipToys.AdminUI
 {
     public class FilterConfig
     {

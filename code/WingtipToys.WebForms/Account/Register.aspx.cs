@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.UI;
 using WingtipToys.Identity;
 
-namespace WingtipToys.Account
+namespace WingtipToys.ShopUI.Account
 {
     public partial class Register : Page
     {
@@ -20,7 +20,7 @@ namespace WingtipToys.Account
             {
                 IdentityHelper.SignIn(manager, user, isPersistent: false);
 
-                using (WingtipToys.Logic.ShoppingCartActions usersShoppingCart = new WingtipToys.Logic.ShoppingCartActions())
+                using (Logic.ShoppingCartActions usersShoppingCart = new Logic.ShoppingCartActions())
                 {
                   String cartId = usersShoppingCart.GetCartId();
                   usersShoppingCart.MigrateCart(cartId, user.Id);

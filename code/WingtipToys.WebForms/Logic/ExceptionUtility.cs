@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.IO;
 
-namespace WingtipToys.Logic
+namespace WingtipToys.ShopUI.Logic
 {
   // Create our own utility for exceptions
   public sealed class ExceptionUtility

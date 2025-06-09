@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using WingtipToys.Identity;
 
-namespace WingtipToys.Account
+namespace WingtipToys.ShopUI.Account
 {
     public partial class Manage : System.Web.UI.Page
     {

@@ -4,7 +4,7 @@ using System;
 using System.Web;
 using WingtipToys.Identity;
 
-namespace WingtipToys.Account
+namespace WingtipToys.ShopUI.Account
 {
     public partial class RegisterExternalLogin : System.Web.UI.Page
     {

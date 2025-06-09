@@ -3,7 +3,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Owin;
 
-namespace WingtipToys
+namespace WingtipToys.ShopUI
 {
     public partial class Startup {
 

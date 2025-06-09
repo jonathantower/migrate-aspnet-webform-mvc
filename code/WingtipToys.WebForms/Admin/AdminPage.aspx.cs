@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using WingtipToys.Data;
-using WingtipToys.Logic;
+using WingtipToys.ShopUI.Logic;
 
-namespace WingtipToys.Admin
+namespace WingtipToys.ShopUI.Admin
 {
   public partial class AdminPage : System.Web.UI.Page
   {

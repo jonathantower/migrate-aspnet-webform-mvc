@@ -9,7 +9,7 @@ using System.Web;
 using System.Web.Mvc;
 using WingtipToys.Data;
 
-namespace WingtipToys.MVC.Controllers
+namespace WingtipToys.AdminUI.Controllers
 {
     [Authorize]
     public class ProductsController : Controller

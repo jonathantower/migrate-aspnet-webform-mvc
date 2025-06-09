@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WingtipToys.Account {
+namespace WingtipToys.ShopUI.Account {
     
     
     public partial class Login {
@@ -72,6 +72,6 @@ namespace WingtipToys.Account {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::WingtipToys.Account.OpenAuthProviders OpenAuthLogin;
+        protected global::WingtipToys.ShopUI.Account.OpenAuthProviders OpenAuthLogin;
     }
 }

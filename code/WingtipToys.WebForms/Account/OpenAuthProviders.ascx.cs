@@ -7,7 +7,7 @@ using System.Linq;
 using System.Web;
 using WingtipToys.Identity;
 
-namespace WingtipToys.Account
+namespace WingtipToys.ShopUI.Account
 {
     public partial class OpenAuthProviders : System.Web.UI.UserControl
     {

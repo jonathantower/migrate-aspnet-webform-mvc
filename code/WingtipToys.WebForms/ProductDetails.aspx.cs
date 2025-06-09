@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using WingtipToys.Data;
 using System.Web.ModelBinding;
 
-namespace WingtipToys
+namespace WingtipToys.ShopUI
 {
   public partial class ProductDetails : System.Web.UI.Page
   {

@@ -9,9 +9,9 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using WingtipToys.Common;
 using WingtipToys.Data;
-using WingtipToys.Logic;
+using WingtipToys.ShopUI.Logic;
 
-namespace WingtipToys
+namespace WingtipToys.ShopUI
 {
   public partial class ShoppingCart : System.Web.UI.Page
   {

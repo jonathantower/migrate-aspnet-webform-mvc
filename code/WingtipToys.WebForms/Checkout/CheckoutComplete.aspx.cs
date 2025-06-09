@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using WingtipToys.Data;
 
-namespace WingtipToys.Checkout
+namespace WingtipToys.ShopUI.Checkout
 {
   public partial class CheckoutComplete : System.Web.UI.Page
   {
@@ -60,8 +60,8 @@ namespace WingtipToys.Checkout
           }
 
           // Clear shopping cart.
-          using (WingtipToys.Logic.ShoppingCartActions usersShoppingCart =
-              new WingtipToys.Logic.ShoppingCartActions())
+          using (Logic.ShoppingCartActions usersShoppingCart =
+              new Logic.ShoppingCartActions())
           {
             usersShoppingCart.EmptyCart();
           }

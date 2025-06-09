@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Product Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" 
-         CodeBehind="ProductDetails.aspx.cs" Inherits="WingtipToys.ProductDetails" %>
+         CodeBehind="ProductDetails.aspx.cs" Inherits="WingtipToys.ShopUI.ProductDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <asp:FormView ID="productDetail" runat="server" ItemType="WingtipToys.Data.Product" SelectMethod ="GetProduct" RenderOuterTable="false">
         <ItemTemplate>

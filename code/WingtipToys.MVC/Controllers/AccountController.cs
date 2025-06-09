@@ -4,9 +4,9 @@ using Microsoft.Owin.Security;
 using System.Web;
 using System.Web.Mvc;
 using WingtipToys.Identity;
-using WingtipToys.MVC.ViewModels;
+using WingtipToys.AdminUI.ViewModels;
 
-namespace WingtipToys.MVC.Controllers
+namespace WingtipToys.AdminUI.Controllers
 {
     public class AccountController : Controller
     {
