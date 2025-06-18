@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace WingtipToys.Data
+namespace WingtipToys.Data.Core
 {
   public class Order
   {

@@ -1,6 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
-using WingtipToys.Data;
+using WingtipToys.Data.Core;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSystemWebAdapters()

@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modern", "Modern", "{3C6EA3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipToys.AdminUI", "WingtipToys.AdminUI\WingtipToys.AdminUI.csproj", "{13833ADB-D6CA-4D42-9AB3-E15DCB7EF7F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipToys.AdminUICore", "WingtipToys.AdminUICore\WingtipToys.AdminUICore.csproj", "{15D46C9A-C07A-13AF-7D05-A3A630958B2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipToys.AdminUI.Core", "WingtipToys.AdminUICore\WingtipToys.AdminUI.Core.csproj", "{15D46C9A-C07A-13AF-7D05-A3A630958B2B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipToys.Common", "WingtipToys.Common\WingtipToys.Common.csproj", "{68A9323B-8C84-F822-5B9B-436BF5D3C988}"
 EndProject
@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipToys.Data", "Wingtip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipToys.Identity", "WingtipToys.Identity\WingtipToys.Identity.csproj", "{F6C13961-8395-48DB-A72E-D82FF9C52CE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipToys.DataCore", "WingtipToys.DataCore\WingtipToys.DataCore.csproj", "{CEEA9DCF-3640-43DB-6448-8C4F2364ECD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipToys.Data.Core", "WingtipToys.DataCore\WingtipToys.Data.Core.csproj", "{CEEA9DCF-3640-43DB-6448-8C4F2364ECD9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{5316DAA3-A793-45F5-ABB3-3589B25B7A02}"
 EndProject

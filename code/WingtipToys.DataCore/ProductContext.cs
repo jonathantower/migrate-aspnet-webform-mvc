@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-namespace WingtipToys.Data
+namespace WingtipToys.Data.Core
 {
   public class ProductContext : DbContext
   {

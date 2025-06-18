@@ -5,14 +5,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Net;
 using System.Web;
-using WingtipToys.Data;
+using WingtipToys.Data.Core;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 
-namespace WingtipToys.AdminUI.Controllers
+namespace WingtipToys.AdminUI.Core.Controllers
 {
     [Authorize]
     public class ProductsController : Controller

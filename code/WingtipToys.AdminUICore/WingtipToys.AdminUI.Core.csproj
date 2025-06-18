@@ -16,6 +16,6 @@
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\WingtipToys.Common\WingtipToys.Common.csproj" />
-      <ProjectReference Include="..\WingtipToys.DataCore\WingtipToys.DataCore.csproj" />
+      <ProjectReference Include="..\WingtipToys.DataCore\WingtipToys.Data.Core.csproj" />
     </ItemGroup>
 </Project>

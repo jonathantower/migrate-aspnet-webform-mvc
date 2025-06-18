@@ -1,5 +1,5 @@
 
-using WingtipToys.Data;
+using WingtipToys.Data.Core;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
