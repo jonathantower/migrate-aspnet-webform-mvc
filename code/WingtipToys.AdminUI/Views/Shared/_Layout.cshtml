@@ -1,8 +1,5 @@
 ﻿@using Microsoft.AspNet.Identity
 @using WingtipToys.Common
-@{
-    bool isMobile = WingtipToys.Common.HttpContextUtilities.IsMobileBrowser();
-}
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,10 +47,12 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>Legacy App</p>
-            @if (isMobile)
+            @if (WingtipToys.Common.HttpContextUtilities.IsMobileBrowser())
             {
-                <div>(Mobile Site)</div>
+                <div>Mobile</div>
+            } else
+            {
+                <div>Desktop</div>
             }
         </footer>
     </div>

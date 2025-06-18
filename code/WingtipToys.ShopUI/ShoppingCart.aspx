@@ -31,6 +31,7 @@
             <asp:Label ID="LabelTotalText" runat="server" Text="Order Total: "></asp:Label>
             <asp:Label ID="lblTotal" runat="server" EnableViewState="false"></asp:Label>
         </strong> 
+        <strong style="float:right">Cart Updated: <asp:Label ID="lblLastUpdated" runat="server"></asp:Label></strong>
     </div>
     <br />
     <table> 

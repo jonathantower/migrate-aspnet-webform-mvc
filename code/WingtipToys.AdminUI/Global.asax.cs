@@ -17,14 +17,8 @@ namespace WingtipToys.AdminUI
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-            SystemWebAdapterConfiguration.AddSystemWebAdapters(this)
-               .AddRemoteAppServer(options =>
-               {
-                   options.ApiKey = "760ea4f19eab4b5c909d3f61098e5f4c";
-               })
-               .AddAuthenticationServer();
         }
+
         void Application_Error(object sender, EventArgs e)
         {
             // Code that runs when an unhandled error occurs.

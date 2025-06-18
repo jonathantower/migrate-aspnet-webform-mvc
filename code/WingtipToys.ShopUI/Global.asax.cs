@@ -20,19 +20,6 @@ namespace WingtipToys
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            SystemWebAdapterConfiguration.AddSystemWebAdapters(this)
-                .AddProxySupport(options => options.UseForwardedHeaders = true)
-               .AddJsonSessionSerializer(options =>
-               {
-                   options.RegisterKey<string>("CartId");
-               })
-               .AddRemoteAppServer(options =>
-               {
-                   options.ApiKey = "760ea4f19eab4b5c909d3f61098e5f4c";
-               })
-               .AddAuthenticationServer()
-               .AddSessionServer();
-
             // Initialize the product database.
             Database.SetInitializer(new ProductDatabaseInitializer());
 

@@ -9,6 +9,7 @@ using System.Web.UI.WebControls;
 using System.Linq;
 using WingtipToys.Models;
 using WingtipToys.Logic;
+using WingtipToys.Common;
 
 namespace WingtipToys
 {
@@ -86,6 +87,7 @@ namespace WingtipToys
           }
 
             lblCartId.Text = (Session["CartId"] ?? "").ToString();
+            lblMobile.Text = HttpContextUtilities.IsMobileBrowser() ? "Mobile" : "Desktop";
         }
 
         public IQueryable<Category> GetCategories()

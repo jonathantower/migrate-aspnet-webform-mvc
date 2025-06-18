@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WingtipToys {
-    
-    
-    public partial class ShoppingCart {
-        
+namespace WingtipToys
+{
+
+
+    public partial class ShoppingCart
+    {
+
         /// <summary>
         /// ShoppingCartTitle control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace WingtipToys {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ShoppingCartTitle;
-        
+
         /// <summary>
         /// CartList control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace WingtipToys {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView CartList;
-        
+
         /// <summary>
         /// LabelTotalText control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace WingtipToys {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LabelTotalText;
-        
+
         /// <summary>
         /// lblTotal control.
         /// </summary>
@@ -47,7 +49,16 @@ namespace WingtipToys {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblTotal;
-        
+
+        /// <summary>
+        /// lblLastUpdated control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblLastUpdated;
+
         /// <summary>
         /// UpdateBtn control.
         /// </summary>
@@ -56,7 +67,7 @@ namespace WingtipToys {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button UpdateBtn;
-        
+
         /// <summary>
         /// CheckoutImageBtn control.
         /// </summary>
