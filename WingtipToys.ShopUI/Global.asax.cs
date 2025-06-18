@@ -31,12 +31,17 @@ namespace WingtipToys
             RegisterCustomRoutes(RouteTable.Routes);
 
             SystemWebAdapterConfiguration.AddSystemWebAdapters(this)
+               .AddProxySupport(options => options.UseForwardedHeaders = true)
+               .AddJsonSessionSerializer(options =>
+               {
+                   options.RegisterKey<string>("CartId");
+               })
                .AddRemoteAppServer(options =>
                {
                    options.ApiKey = "760ea4f19eab4b5c909d3f61098e5f4c";
                })
-               .AddAuthenticationServer();
-
+               .AddAuthenticationServer()
+               .AddSessionServer();
         }
 
         void RegisterCustomRoutes(RouteCollection routes)
