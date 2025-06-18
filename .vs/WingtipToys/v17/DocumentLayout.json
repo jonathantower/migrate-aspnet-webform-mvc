@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13833ADB-D6CA-4D42-9AB3-E15DCB7EF7F8}|WingtipToys.AdminUI\\WingtipToys.AdminUI.csproj|c:\\users\\jonat\\onedrive\\dometrain\\migrating asp.net web forms and mvc to asp.net core\\code\\wingtiptoys.adminui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13833ADB-D6CA-4D42-9AB3-E15DCB7EF7F8}|WingtipToys.AdminUI\\WingtipToys.AdminUI.csproj|solutionrelative:wingtiptoys.adminui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF0DAA-8CC1-4CA4-9EB3-7DAF4B916788}|WingtipToys.Common\\WingtipToys.Common.csproj|c:\\users\\jonat\\onedrive\\dometrain\\migrating asp.net web forms and mvc to asp.net core\\code\\wingtiptoys.common\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF0DAA-8CC1-4CA4-9EB3-7DAF4B916788}|WingtipToys.Common\\WingtipToys.Common.csproj|solutionrelative:wingtiptoys.common\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EAF67CC-D5D2-4624-8347-2545C9EA4AE9}|WingtipToys.ShopUI\\WingtipToys.ShopUI.csproj|c:\\users\\jonat\\onedrive\\dometrain\\migrating asp.net web forms and mvc to asp.net core\\code\\wingtiptoys.shopui\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EAF67CC-D5D2-4624-8347-2545C9EA4AE9}|WingtipToys.ShopUI\\WingtipToys.ShopUI.csproj|solutionrelative:wingtiptoys.shopui\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EAF67CC-D5D2-4624-8347-2545C9EA4AE9}|WingtipToys.ShopUI\\WingtipToys.ShopUI.csproj|c:\\users\\jonat\\onedrive\\dometrain\\migrating asp.net web forms and mvc to asp.net core\\code\\wingtiptoys.shopui\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{3EAF67CC-D5D2-4624-8347-2545C9EA4AE9}|WingtipToys.ShopUI\\WingtipToys.ShopUI.csproj|solutionrelative:wingtiptoys.shopui\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF0DAA-8CC1-4CA4-9EB3-7DAF4B916788}|WingtipToys.Common\\WingtipToys.Common.csproj|c:\\users\\jonat\\onedrive\\dometrain\\migrating asp.net web forms and mvc to asp.net core\\code\\wingtiptoys.common\\httpcontextutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF0DAA-8CC1-4CA4-9EB3-7DAF4B916788}|WingtipToys.Common\\WingtipToys.Common.csproj|solutionrelative:wingtiptoys.common\\httpcontextutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EAF67CC-D5D2-4624-8347-2545C9EA4AE9}|WingtipToys.ShopUI\\WingtipToys.ShopUI.csproj|c:\\users\\jonat\\onedrive\\dometrain\\migrating asp.net web forms and mvc to asp.net core\\code\\wingtiptoys.shopui\\shoppingcart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3EAF67CC-D5D2-4624-8347-2545C9EA4AE9}|WingtipToys.ShopUI\\WingtipToys.ShopUI.csproj|solutionrelative:wingtiptoys.shopui\\shoppingcart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EAF67CC-D5D2-4624-8347-2545C9EA4AE9}|WingtipToys.ShopUI\\WingtipToys.ShopUI.csproj|c:\\users\\jonat\\onedrive\\dometrain\\migrating asp.net web forms and mvc to asp.net core\\code\\wingtiptoys.shopui\\shoppingcart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EAF67CC-D5D2-4624-8347-2545C9EA4AE9}|WingtipToys.ShopUI\\WingtipToys.ShopUI.csproj|solutionrelative:wingtiptoys.shopui\\shoppingcart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF0DAA-8CC1-4CA4-9EB3-7DAF4B916788}|WingtipToys.Common\\WingtipToys.Common.csproj|c:\\users\\jonat\\onedrive\\dometrain\\migrating asp.net web forms and mvc to asp.net core\\code\\wingtiptoys.common\\datetimehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF0DAA-8CC1-4CA4-9EB3-7DAF4B916788}|WingtipToys.Common\\WingtipToys.Common.csproj|solutionrelative:wingtiptoys.common\\datetimehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.AdminUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WingtipToys.AdminUI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.AdminUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WingtipToys.AdminUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T01:03:04.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HttpContextUtilities.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.Common\\HttpContextUtilities.cs",
+              "RelativeDocumentMoniker": "WingtipToys.Common\\HttpContextUtilities.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.Common\\HttpContextUtilities.cs",
+              "RelativeToolTip": "WingtipToys.Common\\HttpContextUtilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T00:59:19.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.ShopUI\\Site.Master.cs",
+              "RelativeDocumentMoniker": "WingtipToys.ShopUI\\Site.Master.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.ShopUI\\Site.Master.cs",
+              "RelativeToolTip": "WingtipToys.ShopUI\\Site.Master.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAlwFAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T00:58:45.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.ShopUI\\Site.Master",
+              "RelativeDocumentMoniker": "WingtipToys.ShopUI\\Site.Master",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.ShopUI\\Site.Master",
+              "RelativeToolTip": "WingtipToys.ShopUI\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-18T00:50:16.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShoppingCart.aspx",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.ShopUI\\ShoppingCart.aspx",
+              "RelativeDocumentMoniker": "WingtipToys.ShopUI\\ShoppingCart.aspx",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.ShopUI\\ShoppingCart.aspx",
+              "RelativeToolTip": "WingtipToys.ShopUI\\ShoppingCart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-18T00:49:39.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShoppingCart.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.ShopUI\\ShoppingCart.aspx.cs",
+              "RelativeDocumentMoniker": "WingtipToys.ShopUI\\ShoppingCart.aspx.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.ShopUI\\ShoppingCart.aspx.cs",
+              "RelativeToolTip": "WingtipToys.ShopUI\\ShoppingCart.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAtwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T00:49:37.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DateTimeHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.Common\\DateTimeHelpers.cs",
+              "RelativeDocumentMoniker": "WingtipToys.Common\\DateTimeHelpers.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.Common\\DateTimeHelpers.cs",
+              "RelativeToolTip": "WingtipToys.Common\\DateTimeHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T00:48:24.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DateTimeExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.Common\\DateTimeExtensions.cs",
+              "RelativeDocumentMoniker": "WingtipToys.Common\\DateTimeExtensions.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Dometrain\\Migrating ASP.NET Web Forms and MVC to ASP.NET Core\\code\\WingtipToys.Common\\DateTimeExtensions.cs",
+              "RelativeToolTip": "WingtipToys.Common\\DateTimeExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T00:45:58.352Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
