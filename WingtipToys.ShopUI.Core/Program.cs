@@ -1,3 +1,4 @@
+using WingtipToys.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSystemWebAdapters();
@@ -21,8 +22,8 @@ app.UseRouting();
 app.UseAuthorization();
 app.UseSystemWebAdapters();
 
-app.MapRazorPages();
 app.MapDefaultControllerRoute();
+app.MapRazorPages();
 app.MapForwarder("/{**catch-all}", app.Configuration["ProxyTo"]).Add(static builder => ((RouteEndpointBuilder)builder).Order = int.MaxValue);
 
 app.Run();

@@ -106,6 +106,7 @@
                 <p>&copy; <%: DateTime.Now.Year %> - Wingtip Toys</p>
                 <asp:Label ID="lblCartId" runat="server"></asp:Label>
                 <div><asp:Label ID="lblMobile" runat="server"></asp:Label></div>
+                <div>Legacy</div>
             </footer>
         </div>
     </form>
