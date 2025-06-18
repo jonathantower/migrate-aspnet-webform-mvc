@@ -7,8 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
     <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters.CoreServices" Version="2.0.0" />
     <PackageReference Include="Yarp.ReverseProxy" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WingtipToys.Common\WingtipToys.Common.csproj" />
+    <ProjectReference Include="..\WingtipToys.Data\WingtipToys.Data.csproj" />
   </ItemGroup>
 
 </Project>

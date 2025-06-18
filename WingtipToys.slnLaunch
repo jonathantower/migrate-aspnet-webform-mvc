@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "WingtipToys.AdminUICore\\WingtipToys.AdminUI.Core.csproj",
+        "Path": "WingtipToys.AdminUI.Core\\WingtipToys.AdminUI.Core.csproj",
         "Action": "Start"
       }
     ]
