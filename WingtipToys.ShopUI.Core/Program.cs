@@ -1,5 +1,6 @@
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddSystemWebAdapters()
     .AddJsonSessionSerializer(options =>
     {
@@ -8,7 +9,7 @@ builder.Services.AddSystemWebAdapters()
     .AddRemoteAppClient(options =>
     {
         options.RemoteAppUrl = new Uri(builder.Configuration["ProxyTo"]!);
-        options.ApiKey = "760ea4f19eab4b5c909d3f61098e5f4c";
+        options.ApiKey = builder.Configuration["SystemWebApiKey"];
     })
 .AddSessionClient()
 .AddAuthenticationClient(true);
