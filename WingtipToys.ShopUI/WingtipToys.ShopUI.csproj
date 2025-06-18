@@ -23,7 +23,7 @@
     <TargetFrameworkProfile />
     <Use64BitIISExpress />
     <UseGlobalApplicationHostFile />
-    <_MigrateToProjectGuid>ec9954e7-d628-4f0a-41ae-39fb025f3028</_MigrateToProjectGuid>
+    <_MigrateToProjectGuid>e5d80fe4-06ec-6fd7-9fcf-c8b00cfca30d</_MigrateToProjectGuid>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
