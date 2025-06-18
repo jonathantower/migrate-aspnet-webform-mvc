@@ -29,6 +29,14 @@ namespace WingtipToys
 
             // Add Routes.
             RegisterCustomRoutes(RouteTable.Routes);
+
+            SystemWebAdapterConfiguration.AddSystemWebAdapters(this)
+               .AddRemoteAppServer(options =>
+               {
+                   options.ApiKey = "760ea4f19eab4b5c909d3f61098e5f4c";
+               })
+               .AddAuthenticationServer();
+
         }
 
         void RegisterCustomRoutes(RouteCollection routes)

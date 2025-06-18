@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace WingtipToys.AdminUI.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class ProductsController : Controller
     {
         private ProductContext db = new ProductContext();
