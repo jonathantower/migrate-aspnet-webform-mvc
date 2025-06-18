@@ -1,5 +1,12 @@
 ﻿@* Adapted from ShopUI's Site.Master for Razor Pages. 
    ASP.NET Web Forms controls and some logic are commented out or omitted. *@
+@{
+    List<WingtipToys.Data.Category> categories;
+    using (var db = new WingtipToys.Data.ProductContext())
+    {
+        categories = db.Categories.ToList();
+    }
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,14 +76,17 @@
         <br />
     </div>
     <div id="CategoryMenu" style="text-align: center">
-        @* Category menu would require a view component or partial to list categories dynamically *@
-        @* Example placeholder: *@
-        @* @await Component.InvokeAsync("CategoryMenu") *@
-        @* Or static links as a temporary measure *@
-        <b style="font-size: large; font-style: normal">
-            <a asp-page="/ProductList" asp-route-categoryName="Category1">Category1</a> |
-            <a asp-page="/ProductList" asp-route-categoryName="Category2">Category2</a>
-        </b>
+        @foreach (var category in categories)
+        {
+            <b style="font-size: large; font-style: normal">
+                <a href="/Category/@category.CategoryName">@category.CategoryName</a>
+            </b>
+            @if (category != categories.Last())
+            {
+                <span> | </span>
+            }
+        }
+
     </div>
     <div class="container body-content">
         @RenderBody()
