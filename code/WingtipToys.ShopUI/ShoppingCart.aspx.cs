@@ -1,17 +1,16 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.Linq;
 using System.Web;
-using System.Web.ModelBinding;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using WingtipToys.Common;
-using WingtipToys.Data;
-using WingtipToys.ShopUI.Logic;
+using WingtipToys.Models;
+using WingtipToys.Logic;
+using System.Collections.Specialized;
+using System.Collections;
+using System.Web.ModelBinding;
 
-namespace WingtipToys.ShopUI
+namespace WingtipToys
 {
   public partial class ShoppingCart : System.Web.UI.Page
   {
@@ -25,13 +24,11 @@ namespace WingtipToys.ShopUI
         {
           // Display Total.
           lblTotal.Text = String.Format("{0:c}", cartTotal);
-          lblCartUpdated.Text = "Cart Updated: " + usersShoppingCart.GetLastUpdatedDate();
         }
         else
         {
           LabelTotalText.Text = "";
           lblTotal.Text = "";
-          lblCartUpdated.Text = "";
           ShoppingCartTitle.InnerText = "Shopping Cart is Empty";
           UpdateBtn.Visible = false;
           CheckoutImageBtn.Visible = false;
@@ -68,8 +65,6 @@ namespace WingtipToys.ShopUI
         usersShoppingCart.UpdateShoppingCartDatabase(cartId, cartUpdates);
         CartList.DataBind();
         lblTotal.Text = String.Format("{0:c}", usersShoppingCart.GetTotal());
-        lblCartUpdated.Text = "Cart Updated: " + usersShoppingCart.GetLastUpdatedDate();
-
         return usersShoppingCart.GetCartItems();
       }
     }

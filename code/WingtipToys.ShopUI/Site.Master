@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WingtipToys.ShopUI.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WingtipToys.SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -85,7 +85,7 @@
         </div>
         <div id="CategoryMenu" style="text-align: center">       
             <asp:ListView ID="categoryList"  
-                ItemType="WingtipToys.Data.Category" 
+                ItemType="WingtipToys.Models.Category" 
                 runat="server"
                 SelectMethod="GetCategories" >
                 <ItemTemplate>
@@ -104,7 +104,7 @@
             <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - Wingtip Toys</p>
-                <div id="divMobile" runat="server">(Mobile Site)</div>
+                <asp:Label ID="lblCartId" runat="server"></asp:Label>
             </footer>
         </div>
     </form>

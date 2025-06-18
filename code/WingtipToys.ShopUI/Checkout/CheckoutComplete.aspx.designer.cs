@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WingtipToys.ShopUI.Checkout {
+namespace WingtipToys.Checkout {
     
     
     public partial class CheckoutComplete {

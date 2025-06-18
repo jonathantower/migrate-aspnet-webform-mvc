@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WingtipToys.ShopUI {
+namespace WingtipToys {
     
     
     public partial class ErrorPage {

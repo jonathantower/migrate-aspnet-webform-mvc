@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using WingtipToys.Identity;
+using WingtipToys.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace WingtipToys.ShopUI.Logic
+namespace WingtipToys.Logic
 {
   internal class RoleActions
   {
     internal void createAdmin()
     {
       // Access the application context and create result variables.
-      ApplicationDbContext context = new ApplicationDbContext();
+      Models.ApplicationDbContext context = new ApplicationDbContext();
       IdentityResult IdRoleResult;
       IdentityResult IdUserResult;
 

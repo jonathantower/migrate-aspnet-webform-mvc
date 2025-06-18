@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using WingtipToys.Data;
+using WingtipToys.Models;
 
-namespace WingtipToys.ShopUI.Checkout
+namespace WingtipToys.Checkout
 {
   public partial class CheckoutComplete : System.Web.UI.Page
   {
@@ -60,8 +60,8 @@ namespace WingtipToys.ShopUI.Checkout
           }
 
           // Clear shopping cart.
-          using (Logic.ShoppingCartActions usersShoppingCart =
-              new Logic.ShoppingCartActions())
+          using (WingtipToys.Logic.ShoppingCartActions usersShoppingCart =
+              new WingtipToys.Logic.ShoppingCartActions())
           {
             usersShoppingCart.EmptyCart();
           }

@@ -42,7 +42,9 @@ namespace WingtipToys.AdminUI.Controllers
                     IsPersistent = model.RememberMe
                 }, identity);
 
-                //return RedirectToLocal(returnUrl);
+                //return View();
+
+                //return Redirect(Request.Headers["x-forwarded-host"] + returnUrl);
 
                 if (Url.IsLocalUrl(returnUrl))
                 {

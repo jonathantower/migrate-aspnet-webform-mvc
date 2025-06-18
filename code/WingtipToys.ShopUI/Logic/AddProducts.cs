@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using WingtipToys.Data;
+using WingtipToys.Models;
 
-namespace WingtipToys.ShopUI.Logic
+namespace WingtipToys.Logic
 {
   public class AddProducts
   {

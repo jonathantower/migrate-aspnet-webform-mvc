@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AdminPage.aspx.cs" Inherits="WingtipToys.ShopUI.Admin.AdminPage" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AdminPage.aspx.cs" Inherits="WingtipToys.Admin.AdminPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>Administration</h1>
     <hr />
@@ -8,7 +8,7 @@
             <td><asp:Label ID="LabelAddCategory" runat="server">Category:</asp:Label></td>
             <td>
                 <asp:DropDownList ID="DropDownAddCategory" runat="server" 
-                    ItemType="WingtipToys.Data.Category" 
+                    ItemType="WingtipToys.Models.Category" 
                     SelectMethod="GetCategories" DataTextField="CategoryName" 
                     DataValueField="CategoryID" >
                 </asp:DropDownList>
@@ -53,7 +53,7 @@
     <table>
         <tr>
             <td><asp:Label ID="LabelRemoveProduct" runat="server">Product:</asp:Label></td>
-            <td><asp:DropDownList ID="DropDownRemoveProduct" runat="server" ItemType="WingtipToys.Data.Product" 
+            <td><asp:DropDownList ID="DropDownRemoveProduct" runat="server" ItemType="WingtipToys.Models.Product" 
                     SelectMethod="GetProducts" AppendDataBoundItems="true" 
                     DataTextField="ProductName" DataValueField="ProductID" >
                 </asp:DropDownList>

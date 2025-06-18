@@ -5,9 +5,8 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Web;
-using WingtipToys.Identity;
 
-namespace WingtipToys.ShopUI.Account
+namespace WingtipToys.Account
 {
     public partial class OpenAuthProviders : System.Web.UI.UserControl
     {

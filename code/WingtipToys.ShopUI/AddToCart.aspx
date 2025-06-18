@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddToCart.aspx.cs" Inherits="WingtipToys.ShopUI.AddToCart" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddToCart.aspx.cs" Inherits="WingtipToys.AddToCart" %>
 
 <!DOCTYPE html>
 

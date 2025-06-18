@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using WingtipToys.ShopUI.Logic;
+using WingtipToys.Logic;
 
-namespace WingtipToys.ShopUI
+namespace WingtipToys
 {
   public partial class ErrorPage : System.Web.UI.Page
   {

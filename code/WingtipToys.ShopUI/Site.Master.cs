@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
 using System.Web;
 using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using WingtipToys.Common;
-using WingtipToys.Data;
-using WingtipToys.ShopUI.Logic;
+using System.Linq;
+using WingtipToys.Models;
+using WingtipToys.Logic;
 
-namespace WingtipToys.ShopUI
+namespace WingtipToys
 {
     public partial class SiteMaster : MasterPage
     {
@@ -72,9 +71,6 @@ namespace WingtipToys.ShopUI
 
         protected void Page_Load(object sender, EventArgs e)
         {
-          bool isMobile = HttpContextUtilities.IsMobileBrowser();
-          divMobile.Visible = false;
-
           if (HttpContext.Current.User.IsInRole("Administrator"))
           {
             adminLink.Visible = true;
@@ -88,11 +84,13 @@ namespace WingtipToys.ShopUI
             string cartStr = string.Format("Cart ({0})", usersShoppingCart.GetCount());
             cartCount.InnerText = cartStr;
           }
+
+            lblCartId.Text = (Session["CartId"] ?? "").ToString();
         }
 
         public IQueryable<Category> GetCategories()
         {
-          var _db = new WingtipToys.Data.ProductContext();
+          var _db = new WingtipToys.Models.ProductContext();
           IQueryable<Category> query = _db.Categories;
           return query;
         }

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using WingtipToys.Data;
+using WingtipToys.Models;
 using System.Web.ModelBinding;
 
-namespace WingtipToys.ShopUI
+namespace WingtipToys
 {
   public partial class ProductDetails : System.Web.UI.Page
   {
@@ -20,7 +20,7 @@ namespace WingtipToys.ShopUI
                         [QueryString("ProductID")] int? productId,
                         [RouteData] string productName)
     {
-      var _db = new WingtipToys.Data.ProductContext();
+      var _db = new WingtipToys.Models.ProductContext();
       IQueryable<Product> query = _db.Products;
       if (productId.HasValue && productId > 0)
       {

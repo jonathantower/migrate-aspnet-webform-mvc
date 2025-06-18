@@ -3,9 +3,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using WingtipToys.Identity;
+using WingtipToys.Models;
 
-namespace WingtipToys.ShopUI.Account
+namespace WingtipToys.Account
 {
     public partial class Manage : System.Web.UI.Page
     {

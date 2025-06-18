@@ -4,10 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using WingtipToys.Data;
-using WingtipToys.ShopUI.Logic;
+using WingtipToys.Models;
+using WingtipToys.Logic;
 
-namespace WingtipToys.ShopUI.Admin
+namespace WingtipToys.Admin
 {
   public partial class AdminPage : System.Web.UI.Page
   {
@@ -79,21 +79,21 @@ namespace WingtipToys.ShopUI.Admin
 
     public IQueryable GetCategories()
     {
-      var _db = new WingtipToys.Data.ProductContext();
+      var _db = new WingtipToys.Models.ProductContext();
       IQueryable query = _db.Categories;
       return query;
     }
 
     public IQueryable GetProducts()
     {
-      var _db = new WingtipToys.Data.ProductContext();
+      var _db = new WingtipToys.Models.ProductContext();
       IQueryable query = _db.Products;
       return query;
     }
 
     protected void RemoveProductButton_Click(object sender, EventArgs e)
     {
-      using (var _db = new WingtipToys.Data.ProductContext())
+      using (var _db = new WingtipToys.Models.ProductContext())
       {
         int productId = Convert.ToInt16(DropDownRemoveProduct.SelectedValue);
         var myItem = (from c in _db.Products where c.ProductID == productId select c).FirstOrDefault();

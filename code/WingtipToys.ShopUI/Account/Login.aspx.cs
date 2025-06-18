@@ -6,9 +6,9 @@ using System;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
-using WingtipToys.Identity;
+using WingtipToys.Models;
 
-namespace WingtipToys.ShopUI.Account
+namespace WingtipToys.Account
 {
     public partial class Login : Page
     {
@@ -34,7 +34,7 @@ namespace WingtipToys.ShopUI.Account
                 {
                     IdentityHelper.SignIn(manager, user, RememberMe.Checked);
 
-                    Logic.ShoppingCartActions usersShoppingCart = new Logic.ShoppingCartActions();
+                    WingtipToys.Logic.ShoppingCartActions usersShoppingCart = new WingtipToys.Logic.ShoppingCartActions();
                     String cartId = usersShoppingCart.GetCartId();
                     usersShoppingCart.MigrateCart(cartId, UserName.Text);
 

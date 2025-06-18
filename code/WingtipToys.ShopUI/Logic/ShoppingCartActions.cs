@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using WingtipToys.Data;
+using WingtipToys.Models;
 
-namespace WingtipToys.ShopUI.Logic
+namespace WingtipToys.Logic
 {
   public class ShoppingCartActions : IDisposable
   {
@@ -95,16 +95,6 @@ namespace WingtipToys.ShopUI.Logic
                          cartItems.Product.UnitPrice).Sum();
       return total ?? decimal.Zero;
     }
-
-    public string GetLastUpdatedDate()
-    {
-      ShoppingCartId = GetCartId();
-      var lastUpdated = (from cartItems in _db.ShoppingCartItems
-                         where cartItems.CartId == ShoppingCartId
-                         select cartItems.DateCreated).Max();
-      return lastUpdated.ToFriendlyDate();
-    }
-
     public ShoppingCartActions GetCart(HttpContext context)
     {
       using (var cart = new ShoppingCartActions())
@@ -116,7 +106,7 @@ namespace WingtipToys.ShopUI.Logic
 
     public void UpdateShoppingCartDatabase(String cartId, ShoppingCartUpdates[] CartItemUpdates)
     {
-      using (var db = new WingtipToys.Data.ProductContext())
+      using (var db = new WingtipToys.Models.ProductContext())
       {
         try
         {
@@ -150,7 +140,7 @@ namespace WingtipToys.ShopUI.Logic
 
     public void RemoveItem(string removeCartID, int removeProductID)
     {
-      using (var _db = new WingtipToys.Data.ProductContext())
+      using (var _db = new WingtipToys.Models.ProductContext())
       {
         try
         {
@@ -171,7 +161,7 @@ namespace WingtipToys.ShopUI.Logic
 
     public void UpdateItem(string updateCartID, int updateProductID, int quantity)
     {
-      using (var _db = new WingtipToys.Data.ProductContext())
+      using (var _db = new WingtipToys.Models.ProductContext())
       {
         try
         {

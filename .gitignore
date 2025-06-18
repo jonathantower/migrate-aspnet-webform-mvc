@@ -1,6 +1,7 @@
 syntax: glob
 
 slides/
+old-code/
 
 ### VisualStudio ###
 

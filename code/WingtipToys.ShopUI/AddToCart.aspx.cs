@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Diagnostics;
-using WingtipToys.ShopUI.Logic;
+using WingtipToys.Logic;
 
-namespace WingtipToys.ShopUI
+namespace WingtipToys
 {
   public partial class AddToCart : System.Web.UI.Page
   {

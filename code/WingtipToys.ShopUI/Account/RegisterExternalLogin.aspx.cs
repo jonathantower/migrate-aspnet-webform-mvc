@@ -2,9 +2,9 @@
 using Microsoft.Owin.Security;
 using System;
 using System.Web;
-using WingtipToys.Identity;
+using WingtipToys.Models;
 
-namespace WingtipToys.ShopUI.Account
+namespace WingtipToys.Account
 {
     public partial class RegisterExternalLogin : System.Web.UI.Page
     {
