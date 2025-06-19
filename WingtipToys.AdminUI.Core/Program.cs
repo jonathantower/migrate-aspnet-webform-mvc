@@ -1,5 +1,15 @@
+using Microsoft.AspNetCore.DataProtection;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var path = Path.Combine(Path.GetTempPath(), "sharedkeys", "WingtipToys.Admin");
+builder.Services.AddDataProtection()
+    .SetApplicationName("WingtipToys.Admin")
+    .PersistKeysToFileSystem(new DirectoryInfo(path));
+builder.Services.ConfigureApplicationCookie(options => {
+    options.Cookie.Name = ".AspNet.SharedCookie";
+});
+
 builder.Services.AddSystemWebAdapters()
     .AddJsonSessionSerializer(options =>
     {
@@ -39,3 +49,4 @@ app.MapForwarder("/{**catch-all}", app.Configuration["ProxyTo"])
     .Add(static builder => ((RouteEndpointBuilder)builder).Order = int.MaxValue);
 
 app.Run();
+

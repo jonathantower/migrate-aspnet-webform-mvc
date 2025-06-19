@@ -3,11 +3,11 @@
     "Name": "Incremental Migration",
     "Projects": [
       {
-        "Path": "WingtipToys.ShopUI\\WingtipToys.ShopUI.csproj",
+        "Path": "WingtipToys.AdminUI\\WingtipToys.AdminUI.csproj",
         "Action": "Start"
       },
       {
-        "Path": "WingtipToys.ShopUI.Core\\WingtipToys.ShopUI.Core.csproj",
+        "Path": "WingtipToys.AdminUI.Core\\WingtipToys.AdminUI.Core.csproj",
         "Action": "Start"
       }
     ]
