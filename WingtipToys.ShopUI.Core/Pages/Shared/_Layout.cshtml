@@ -1,18 +1,17 @@
 ﻿@using Microsoft.AspNetCore.SystemWebAdapters
 @* Adapted from ShopUI's Site.Master for Razor Pages. 
    ASP.NET Web Forms controls and some logic are commented out or omitted. *@
-@{
-    int? cartCount;
-    List<WingtipToys.Data.Category> categories;
-    using (var db = new WingtipToys.Data.ProductContext())
-    {
-        var cartId = Context.AsSystemWeb().Session["CartId"] as string;
-        cartCount = (from cartItems in db.ShoppingCartItems
-                     where cartItems.CartId == cartId
-                     select (int?)cartItems.Quantity).Sum() ?? 0;
+@using Microsoft.EntityFrameworkCore  
+@inject WingtipToys.Data.Core.ProductContext db;
+@{  
+    int? cartCount;  
+    List<WingtipToys.Data.Core.Category> categories;  
+    var cartId = Context.AsSystemWeb().Session["CartId"] as string;  
+    cartCount = (from cartItems in db.CartItems  
+                    where cartItems.CartId == cartId  
+                    select (int?)cartItems.Quantity).Sum() ?? 0;  
 
-        categories = db.Categories.ToList();
-    }
+    categories = db.Categories?.ToList();  
 }
 <!DOCTYPE html>
 <html lang="en">

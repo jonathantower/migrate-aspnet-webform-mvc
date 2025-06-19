@@ -7,14 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="EntityFramework" Version="6.5.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.6" />
         <PackageReference Include="LigerShark.WebOptimizer.Core" Version="3.0.436" />
         <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters.CoreServices" Version="2.0.0" />
         <PackageReference Include="Yarp.ReverseProxy" Version="2.0.1" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\WingtipToys.Data\WingtipToys.Data.csproj" />
+        <ProjectReference Include="..\WingtipToys.Data.Core\WingtipToys.Data.Core.csproj" />
     </ItemGroup>
 
     <ItemGroup>

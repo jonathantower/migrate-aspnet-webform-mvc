@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using WingtipToys.Data.Core;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddWebOptimizer(pipeline =>
@@ -15,6 +18,10 @@ builder.Services.AddWebOptimizer(pipeline =>
     pipeline.AddCssBundle("/content/css",
         "Content/bootstrap.css", "Content/Site.css").UseContentRoot();
 });
+
+builder.Services.AddDbContext<ProductContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("WingtipToys"))
+           .LogTo(Console.WriteLine));
 
 builder.Services.AddSystemWebAdapters()
     .AddJsonSessionSerializer(options =>
