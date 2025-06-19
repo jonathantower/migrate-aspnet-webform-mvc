@@ -1,6 +1,21 @@
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddWebOptimizer(pipeline =>
+{
+    // Add JavaScript bundles
+    pipeline.AddJavaScriptBundle("/bundles/modernizr",
+        "Scripts/modernizr-2.6.2.js").UseContentRoot();
+    pipeline.AddJavaScriptBundle("/bundles/bootstrap",
+        "Scripts/bootstrap.js", "Scripts/respond.js").UseContentRoot();
+    pipeline.AddJavaScriptBundle("/bundles/jquery",
+        "Scripts/jquery-3.3.1.js").UseContentRoot();
+
+    // Add CSS bundles
+    pipeline.AddCssBundle("/content/css",
+        "Content/bootstrap.css", "Content/Site.css").UseContentRoot();
+});
+
 builder.Services.AddSystemWebAdapters()
     .AddJsonSessionSerializer(options =>
     {
@@ -26,6 +41,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseWebOptimizer();
 app.UseStaticFiles();
 
 app.UseAuthentication();
@@ -33,8 +49,12 @@ app.UseSystemWebAdapters();
 
 app.MapDefaultControllerRoute();
 app.MapRazorPages().RequireSystemWebAdapterSession();
+
+app.MapForwarder("/{folder:regex(Content|Bundles)}/{**catch-all}", app.Configuration["ProxyTo"])
+    .ShortCircuit()
+    .WithOrder(int.MaxValue - 1);
 app.MapForwarder("/{**catch-all}", app.Configuration["ProxyTo"])
     .ShortCircuit()
-    .Add(static builder => ((RouteEndpointBuilder)builder).Order = int.MaxValue);
+    .WithOrder(int.MaxValue);
 
 app.Run();

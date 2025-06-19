@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace WingtipToys.ShopUI.Core.Pages
 {
-    [Authorize]
+    //[Authorize]
     public class ContactModel : PageModel
     {
         public void OnGet()
